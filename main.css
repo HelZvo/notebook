@@ -1,0 +1,22 @@
+body {
+    background-color: lightgray;
+}
+h1 {
+    font-variant: small-caps;
+    font-size: 3em;
+    color: #111111;
+    text-align: center;
+    padding-top: 2rem;
+}
+button {
+    width: 100%;
+    font-size: 3em;
+    color: #111111;
+    text-align: center;
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: gray
+}
+button:active {
+    background-color: darkgrey
+}
