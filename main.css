@@ -18,7 +18,7 @@ button {
     background-color: gray
 }
 button:active {
-    background-color: darkgrey
+    background-color: darkgrey;
 }
 .note{
     background-color: whitesmoke;
@@ -27,4 +27,8 @@ button:active {
     margin: .5rem auto;
     padding: 1rem;
     border-radius: 1rem;
+}
+.note>textarea {
+    width: 100%;
+    resize: none;
 }
