@@ -8,7 +8,7 @@ h1 {
     text-align: center;
     padding-top: 2rem;
 }
-button {
+#addButton {
     width: 100%;
     font-size: 3em;
     color: #111111;
@@ -17,7 +17,7 @@ button {
     padding: 1rem;
     background-color: gray
 }
-button:active {
+#addButton:active {
     background-color: darkgrey;
 }
 .note{
@@ -31,4 +31,8 @@ button:active {
 .note>textarea {
     width: 100%;
     resize: none;
+}
+.note>button {
+    background-color: gainsboro;
+    width: 10%;
 }
